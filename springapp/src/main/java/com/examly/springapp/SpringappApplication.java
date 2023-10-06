@@ -2,7 +2,7 @@ package com.examly.springapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+import com.examly.springapp.model.Team;
  
 
 @SpringBootApplication

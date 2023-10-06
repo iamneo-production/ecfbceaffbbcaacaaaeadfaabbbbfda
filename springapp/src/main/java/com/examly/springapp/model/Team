@@ -1,7 +1,9 @@
+package com.examly.springapp.model;
+
 @Component("team")
 public class Team{
-    private Integer teamId;
-    private String teamName;
+    private Integer teamId = 1;
+    private String teamName = "RCB;
 
     public Team(){
 
