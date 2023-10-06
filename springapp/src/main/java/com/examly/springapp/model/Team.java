@@ -1,5 +1,7 @@
 package com.examly.springapp.model;
-import org.springframework..;
+import org.springframework.stereotype.Component;
+
+
 @Component
 public class Team{
     private Integer teamId;
