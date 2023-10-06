@@ -28,6 +28,15 @@ public class Team{
     }
 
     public String toString(){
-        
+        return "TeamId : "+teamId+" Team Name : "+teamName;
+    }
+
+    public boolean equals(Object obj){
+        Team team2 = (Team) obj;
+        if(teamId == team2.teamId){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
