@@ -1,3 +1,4 @@
+@Component("team")
 public class Team{
     private Integer teamId;
     private String teamName;

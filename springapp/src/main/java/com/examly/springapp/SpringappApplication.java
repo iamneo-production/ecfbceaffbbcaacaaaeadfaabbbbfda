@@ -11,7 +11,9 @@ public class SpringappApplication {
  
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringappApplication.class, args);
+        ApplicationContext context = SpringApplication.run(SpringappApplication.class, args);
+        Team team = (Team) context.getBean("team");
+        System.out.println("Team : "+team);
     }
 
  
