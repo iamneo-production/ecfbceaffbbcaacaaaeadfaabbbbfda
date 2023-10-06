@@ -1,6 +1,6 @@
 package com.examly.springapp.model;
-
-@Component("team")
+import org.springframework..;
+@Component
 public class Team{
     private Integer teamId;
     private String teamName;
