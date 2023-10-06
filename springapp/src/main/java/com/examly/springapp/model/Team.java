@@ -1,9 +1,10 @@
 package com.examly.springapp.model;
+import org.
 
 @Component("team")
 public class Team{
-    private Integer teamId = 1;
-    private String teamName = "RCB;
+    private Integer teamId;
+    private String teamName;
 
     public Team(){
 
