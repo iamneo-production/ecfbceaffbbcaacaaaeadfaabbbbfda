@@ -1,5 +1,4 @@
 package com.examly.springapp.model;
-import org.springframework.sterotype.Component;
 
 @Component("team")
 public class Team{
